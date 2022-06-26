@@ -1,0 +1,100 @@
+.about__us{
+    margin-top: 300px;
+    position: absolute;
+    margin-left: 131.5px;
+    font-size: 39px;
+    width: 85%;
+    
+}
+.post__one{
+    display: flex;
+}
+.post__one p{
+    width: 500px;
+}
+.post__one p:last-child{
+    font-size: 18px;
+}
+.post__one img{
+    display: flex;
+    border-radius: 10px;
+    margin-left: 300px;
+}
+.price__list{
+    margin-top: 100px;
+    background-color: black;
+    color: white;
+    width: 1903px;
+    margin-left: -140px;
+    position: absolute;
+    height: 550px;
+}
+.price__list p{
+    text-align: center;
+}
+.price__list__ul img{
+    margin-left: 150px;
+    margin-right: 130px;
+}
+.price__list__ul{
+    margin-top: 150px;
+    display: flex;
+    font-size: 20px;
+}
+.about{
+    height: 920px;
+    width: 1903px;
+    margin-left: -140px;
+    background-image: url(./assets/img/about.jpg);
+    margin-top: 650px;
+}
+.about__us__text{
+    background-color: rgba(31, 25, 36, 0.8);
+    color: white;
+    width: 500px;
+    padding: 20px 20px;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 1000px;
+}
+.about__us__text p:last-child{
+    font-size: 20px;
+}
+.footer{
+    height: 400px;
+    background-color: #00000094;
+    width: 1903px;
+    margin-left: -140px;
+    color:white;
+}
+.contacs p:first-child{
+    font-size: 28px;
+}
+.contacs p:last-child{
+    font-size: 20px;
+}
+.social p{
+    font-size: 28px
+}
+.social a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px
+}
+.social a:hover{
+    border-bottom: 1px solid white;
+    transition: 0.5s all;
+}
+.social ul{
+    list-style-type: none;
+}
+.info{
+    display: flex;
+    margin-left: 30%;
+    margin-top: 100px;
+    position: absolute;
+}
+.contacs{
+    margin-right: 200px;
+}
