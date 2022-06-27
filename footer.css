@@ -1,0 +1,57 @@
+.footer{
+    height: 400px;
+    background-color: #00000094;
+    width: 100%;
+    color:white;
+}
+.contacs p:first-child{
+    font-size: 28px;
+}
+.contacs p:last-child{
+    font-size: 20px;
+}
+.social p{
+    font-size: 28px
+}
+.social a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.social a:hover{
+    border-bottom: 1px solid white;
+    transition: 0.5s all;
+}
+.social ul{
+    list-style-type: none;
+}
+.info{
+    display: flex;
+    margin-left: 30%;
+    margin-top: 100px;
+    position: absolute;
+}
+.contacs{
+    margin-right: 200px;
+}
+.social li{
+    display: flex;
+    margin-bottom: 15px;
+}
+.social img{
+    margin-right: 5px;
+}
+.info button{
+    height: 50px;
+    padding: 0 20px;
+    background-color: bisque;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-left: 200px;
+    margin-top: 100px;
+    transition: 1s all;
+}
+.info button:hover{
+    background-color: #fff;
+    transition: 1s all;
+}

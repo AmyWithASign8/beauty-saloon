@@ -6,18 +6,25 @@
       </title>
         <link rel="stylesheet" type="text/css" href="header.css" />
         <link rel="stylesheet" type="text/css" href="aboutUs.css" />
+        <link rel="stylesheet" href="footer.css">
+        <link rel="stylesheet" href="App.css">
+        <link rel="stylesheet" href="scroll.css">
+        <script src="Scroll.js"></script>
     </head>
     <body>
         <div class="header">
             <div class="container">
+                <a href="./App.html">
                 <div class="header__logo">
                     <img  src="assets/img/logo.svg" alt="Beauty Saloon"/>
-                    <div>
                         <h1>Студия63</h1>
-                    </div>
                 </div>
+                </a>
                 <div class="header__menu">
-                    <a href="#">Меню</a>
+                    <a href="./pages/Menu.html">Меню</a>
+                    <a href="#aboutUs">О&nbspнас</a>
+                    <a href="./pages/Menu.html#services">Услуги&nbspи&nbspцены</a>
+                    <a href="#footer">Контакты</a>
                     <a href="#">Регистрация</a>
                 </div>
             </div>
@@ -34,7 +41,7 @@
                 <img src="./assets/img/imgForAboutUsOne.JPG" width="800px" alt="">
             </div>
             <div class="price__list">
-                <p>Список услуг</p>
+                <p>У нас</p>
                 <div class="price__list__ul">
                     <div class="price__list__item__one">
                         <img src="./assets/img/specialists.svg" alt="">
@@ -42,23 +49,23 @@
                     </div>
                     <div class="price__list__item__two">
                         <img src="./assets/img/acii.svg" alt="">
-                        <p>красота и комфорт</p>
+                        <p>скидки и акции</p>
                     </div>
                     <div class="price__list__item__three">
                         <img src="./assets/img/krasota.svg" alt="">
-                        <p>скидки и акции</p>
+                        <p>красота и комфорт</p>
                     </div>
                     <div class="price__list__item__four">
                         <img src="./assets/img/card.svg" alt="">
-                        <p>удобное расположение</p>
+                        <p>доступные цены</p>
                     </div>
                     <div class="price__list__item__five">
                         <img src="./assets/img/location.svg" alt="">
-                        <p>доступные цены</p>
+                        <p>удобное расположение</p>
                     </div>
                 </div>
             </div>
-            <div class="about">
+            <div id="aboutUs" class="about">
                 <div class="about__us__text">
                     <p>О НАС</p>
                     <p>Мы хотели сделать невозможное — предоставить качественный сервис каждому, чтобы любой человек, вне зависимости от своего достатка, 
@@ -69,21 +76,23 @@
                         а также команда профессиональных стилистов.</p>
                 </div>
             </div>
-            <div class="footer">
-                <div class="info">
-                    <div class="contacs">
-                        <p>Контактная информация</p>
-                        <p>Телефон: +7 (999) 999-99-99</p>
-                    </div>
-                    <div class="social">
-                        <p>Соц. сети</p>
-                        <ul>
-                            <li><a href="https://vk.com" target="_blank">ВКонтакте</a></li>
-                            <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
-                            <li><a href="https://web.telegram.org" target="_blank">Telegram</a></li>
-                        </ul>   
-                    </div>
+        </div>
+        <div id="footer" class="footer">
+            <div class="info">
+                <div class="contacs">
+                    <p>Контакты:</p>
+                    <p>Адрес: ул. Гоголя 63/1</p>
+                    <p>Телефон/WhatsApp: +7 (917) 400-63-00</p>
                 </div>
+                <div class="social">
+                    <p>Мы в соц. сетях:</p>
+                    <ul>
+                        <li>    <img src="../assets/img/vk.png" alt="" width="40px"><a href="https://vk.com/studio63_ufa" target="_blank">ВКонтакте</a></li>
+                        <li><img src="../assets/img/instagram.png" alt="" width="40px"><a href="https://instagram.com/studio63_ufa?igshid=YmMyMTA2M2Y=" target="_blank">Instagram</a></li>
+                        <li><img src="../assets/img/telegram.png" alt="" width="40px"><a href="https://t.me/studio63_ufa" target="_blank">Telegram</a></li>
+                    </ul>   
+                </div>
+                <button>Запись на услугу</button>
             </div>
         </div>
     </body>

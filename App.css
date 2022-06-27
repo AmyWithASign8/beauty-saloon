@@ -1,0 +1,16 @@
+body{
+    margin: 0 0 0 0;
+}
+.footer{
+    position: absolute;
+    top: 2403px;
+}
+.header{
+    background-color: #000000d5;
+}
+.header__menu a{
+    color: white;
+}
+.header__logo{
+    color: #dadada;
+}

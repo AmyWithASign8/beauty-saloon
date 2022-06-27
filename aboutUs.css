@@ -25,7 +25,7 @@
     background-color: black;
     color: white;
     width: 1903px;
-    margin-left: -140px;
+    margin-left: -132px;
     position: absolute;
     height: 550px;
 }
@@ -44,7 +44,7 @@
 .about{
     height: 920px;
     width: 1903px;
-    margin-left: -140px;
+    margin-left: -133px;
     background-image: url(./assets/img/about.jpg);
     margin-top: 650px;
 }
@@ -60,41 +60,4 @@
 }
 .about__us__text p:last-child{
     font-size: 20px;
-}
-.footer{
-    height: 400px;
-    background-color: #00000094;
-    width: 1903px;
-    margin-left: -140px;
-    color:white;
-}
-.contacs p:first-child{
-    font-size: 28px;
-}
-.contacs p:last-child{
-    font-size: 20px;
-}
-.social p{
-    font-size: 28px
-}
-.social a{
-    text-decoration: none;
-    color: white;
-    font-size: 20px
-}
-.social a:hover{
-    border-bottom: 1px solid white;
-    transition: 0.5s all;
-}
-.social ul{
-    list-style-type: none;
-}
-.info{
-    display: flex;
-    margin-left: 30%;
-    margin-top: 100px;
-    position: absolute;
-}
-.contacs{
-    margin-right: 200px;
 }
